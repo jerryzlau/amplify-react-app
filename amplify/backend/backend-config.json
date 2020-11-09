@@ -16,5 +16,20 @@
         }
       }
     }
+  },
+  "auth": {
+    "todolist9d1336f1": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2020-11-09T04:03:43.948Z"
+    }
   }
 }
